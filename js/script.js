@@ -1,10 +1,11 @@
-let fontCheckInterval;
 const FONT_CHECK_INTERVAL = 100;
 const MAX_FONTS_WAIT = 4000;
 
+let fontCheckInterval;
+
 const isFontLoaded = (font) => {
     const probeWidth = font.$el.width();
-    return probeWidth >= font.minWidth && probeWidth <= font.maxWidth
+    return probeWidth >= font.minWidth && probeWidth <= font.maxWidth;
 }
 
 const onFontsReady = (callback) => {
@@ -21,11 +22,8 @@ const onFontsReady = (callback) => {
     let timeSpent = 0;
 
     fontCheckInterval = setInterval(function() {
-        const allFontsReady = fonts.every(isFontLoaded)
+        const allFontsReady = fonts.every(isFontLoaded);
 
-        // Если все шрифты уже готовы или
-        // мы так и не дождались их загрузки,
-        // отрисовываем страницу
         if (allFontsReady || timeSpent > MAX_FONTS_WAIT) {
             clearInterval(fontCheckInterval);
             callback();
