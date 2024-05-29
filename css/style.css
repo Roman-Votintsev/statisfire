@@ -402,7 +402,10 @@ h1, h2, h3, h4 {
             align-self: end;
         margin-right: 32px;
         margin-bottom: 68px;
-        max-width: 123px;
+    }
+
+     .promo__option--diagram figcaption {
+         max-width: 123px; 
     }
 
     .promo__option--points {
