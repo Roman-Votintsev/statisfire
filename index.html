@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="vendor/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="page">
+<body class="page" style="visibility: hidden;">
     <div class="page-wrapper">
         <header class="page-header">
             <div class="container">
@@ -70,5 +70,18 @@
             </div>
         </footer>
     </div>
+    <script>
+    // Helper function
+    let domReady = (cb) => {
+      document.readyState === 'interactive' || document.readyState === 'complete'
+        ? cb()
+        : document.addEventListener('DOMContentLoaded', cb);
+    };
+
+    domReady(() => {
+      // Display body when DOM is loaded
+      document.body.style.visibility = 'visible';
+    });
+  </script>
 </body>
 </html>
