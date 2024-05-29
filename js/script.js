@@ -1,10 +1,10 @@
-const FONT_CHECK_INTERVAL = 25;
-const MAX_FONTS_WAIT = 1000;
+const FONT_CHECK_INTERVAL = 100;
+const MAX_FONTS_WAIT = 4000;
 
 let fontCheckInterval;
 
 const isFontLoaded = (font) => {
-    const probeWidth = font.$el[0].getBoundingClientRect().width;
+    const probeWidth = font.$el.width();
     return probeWidth >= font.minWidth && probeWidth <= font.maxWidth;
 }
 
