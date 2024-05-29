@@ -1,4 +1,4 @@
-const FONT_CHECK_INTERVAL = 100;
+const FONT_CHECK_INTERVAL = 50;
 const MAX_FONTS_WAIT = 4000;
 
 let fontCheckInterval;
