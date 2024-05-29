@@ -404,8 +404,8 @@ h1, h2, h3, h4 {
         margin-bottom: 68px;
     }
 
-    .figcaption {
-        max-width: 123px;
+    .promo__option--diagram figcaption {
+        max-width: 128px;
     }
 
     .promo__option--points {
