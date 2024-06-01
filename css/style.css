@@ -254,7 +254,6 @@ h1, h2, h3, h4 {
 .promo__picture img {
     border: 9px solid #000000;
     border-radius: 32px;
-    animation: vibrate 2s linear infinite;
 }
 
 .promo__footer {
@@ -319,6 +318,7 @@ h1, h2, h3, h4 {
     .site-logo img {
         width: 32px;
         height: 32px;
+        animation: vibrate 2s linear infinite;
     }
 
     .promo__header {
