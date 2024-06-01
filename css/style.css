@@ -318,7 +318,7 @@ h1, h2, h3, h4 {
     .site-logo img {
         width: 32px;
         height: 32px;
-        animation: vibrate 2s linear infinite;
+        animation: vibrate 5s linear infinite;
         animation-delay: 1s;
     }
 
@@ -459,7 +459,7 @@ h1, h2, h3, h4 {
     0%, 100% {
         transform: translateX(0);
     }
-    10%, 30% {
+    20%, 30% {
         transform: translateX(4px);
     }
     20%, 40% {
