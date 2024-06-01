@@ -255,7 +255,7 @@ h1, h2, h3, h4 {
 .promo__picture img {
     border: 9px solid #000000;
     border-radius: 32px;
-    animation: vibrate 5s linear infinite;
+    animation: vibrate 2s linear infinite;
 }
 
 .promo__footer {
