@@ -255,6 +255,7 @@ h1, h2, h3, h4 {
 .promo__picture img {
     border: 9px solid #000000;
     border-radius: 32px;
+    animation: vibrate 5s linear infinite;
 }
 
 .promo__footer {
@@ -451,6 +452,18 @@ h1, h2, h3, h4 {
             -ms-flex-pack: justify;
                 justify-content: space-between;
         gap: 10px;
+    }
+}
+
+@keyframes vibrate {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30% {
+        transform: translateX(4px);
+    }
+    20%, 40% {
+        transform: translateX(0);
     }
 }
 
