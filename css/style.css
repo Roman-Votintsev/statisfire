@@ -336,7 +336,7 @@ h1, h2, h3, h4 {
         display: inline-block;
         max-width: 200px;
         margin-left: 12px;
-        padding-bottom: 2px;
+        padding-bottom: 0px;
 
         font-size: 13px;
         font-weight: 500;
