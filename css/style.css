@@ -318,9 +318,8 @@ h1, h2, h3, h4 {
     .site-logo img {
         width: 32px;
         height: 32px;
-        animation: vibrate 2s linear infinite;
+        animation: vibrate 2.5s linear infinite;
         animation-fill-mode: forwards;
-        animation-delay: 5s;
     }
 
     .promo__header {
