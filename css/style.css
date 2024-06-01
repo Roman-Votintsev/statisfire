@@ -462,7 +462,7 @@ h1, h2, h3, h4 {
     5%, 10% {
         transform: translateX(4px);
     }
-    10%, 15% {
+    15%, 20% {
         transform: translateX(0);
     }
 }
